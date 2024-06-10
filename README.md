@@ -53,12 +53,12 @@ To run the application in development mode:
 
 1. **Start the development server**:
     ```bash
-    npm run dev
+    npm start
     ```
 
 2. **Open your browser** and navigate to:
     ```
-    http://localhost:5173/
+    http://localhost:3000/
     ```
 
 ### Production Build
@@ -70,7 +70,7 @@ To create a production build:
     npm run build
     ```
 
-2. The build files will be located in the `dist` directory. You can serve these files using any static file server.
+2. The build files will be located in the `build` directory. You can serve these files using any static file server.
 
 ## Usage
 
