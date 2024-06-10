@@ -37,7 +37,7 @@ Ensure you have the following installed on your local machine:
 1. **Clone the repository**:
     ```bash
     git clone https://github.com/shubhamprkash/personal_bookself.git
-    cd personal-bookshelf
+    cd personal_bookshelf
     ```
 
 2. **Install dependencies**:
