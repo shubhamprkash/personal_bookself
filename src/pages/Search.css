@@ -1,0 +1,32 @@
+/* src/pages/Search.css */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .navigation-buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .navigation-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navigation-buttons button:hover {
+    background-color: var(--button-hover-color);
+  }
+  

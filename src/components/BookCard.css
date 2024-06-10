@@ -1,0 +1,46 @@
+/* src/components/BookCard.css */
+.book-card {
+  background-color: var(--card-background-color);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.book-card:hover {
+  background-color: var(--card-hover-color);
+  transform: translateY(-5px);
+}
+
+.book-card h3 {
+  margin: 0.5rem 0;
+  color: var(--primary-color);
+}
+
+.book-card p {
+  color: var(--secondary-color);
+}
+
+.book-card button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  border: none;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-card button:hover {
+  background-color: var(--button-hover-color);
+}
+
+.book-card .remove-button {
+  background-color: red;
+}
+
+.book-card .remove-button:hover {
+  background-color: darkred;
+}
